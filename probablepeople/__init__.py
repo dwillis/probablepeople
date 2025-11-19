@@ -52,7 +52,7 @@ MODEL_FILES = {
 MODEL_FILE = MODEL_FILES["generic"]
 
 VOWELS_Y = tuple("aeiouy")
-PREPOSITIONS = {"for", "to", "of", "on"}
+PREPOSITIONS = {"for", "to", "of", "on", "de", "del", "la", "las", "los", "y"}
 
 
 def _loadTagger(model_type: str) -> pycrfsuite.Tagger:
